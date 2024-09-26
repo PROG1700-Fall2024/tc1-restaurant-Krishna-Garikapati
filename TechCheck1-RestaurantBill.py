@@ -20,7 +20,7 @@ def main():
  print("The tax on bill is $", taxamount)
  #Tip=20% of original bill amount
  tip=((20/100)*billamount)
- print("The tax on bill is $", tip )
+ print("The tip on bill is $", tip )
  Totalbill=(billamount+taxamount+tip)
  print("The total amount of bill is $", Totalbill )
 main()
