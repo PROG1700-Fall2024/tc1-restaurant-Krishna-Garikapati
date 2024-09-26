@@ -1,3 +1,5 @@
+"""Student Name:Krishna Priyanka Garikapati
+Student W#: W0502117"""
 #PROG 1700 – Tech Check #1
 #Variables, Operators, Input/Output & Casting
 
@@ -8,16 +10,17 @@
 # Finally, the program will output the new total of the bill.
 
 
+
+#Caculating Restaurant bill
 def main():
-    # YOUR CODE STARTS HERE, each line must be indented (one tab)
-
-
-
-
-
-
-
-
-    # YOUR CODE ENDS HERE
-
+ billamount=float(input("Please enter the bill amount:"))
+ print("Your original bill amount is $", billamount)
+ #Tax=15% of original bill amount
+ taxamount=((15/100)*billamount)
+ print("The tax on bill is $", taxamount)
+ #Tip=20% of original bill amount
+ tip=((20/100)*billamount)
+ print("The tax on bill is $", tip )
+ Totalbill=(billamount+taxamount+tip)
+ print("The total amount of bill is $", Totalbill )
 main()
